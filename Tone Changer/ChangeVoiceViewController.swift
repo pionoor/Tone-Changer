@@ -30,7 +30,6 @@ class ChangeVoiceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         audioEngine = AVAudioEngine()
-        
         print(audioFile.description)
        
     }
@@ -43,15 +42,10 @@ class ChangeVoiceViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
-        
-        
     }
     
  
-    
-  
-    
+
     @IBAction func reset(sender: UIButton) {
         audioEngine.stop()
         audioEngine.reset()
