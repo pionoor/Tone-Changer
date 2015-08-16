@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5F8966DA-A590-4F83-94DE-A76BFC95B81A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tone Changer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE0491E81C24C450BFA5EBCCDF2E4E1A851F85D5</key>
+		<string>https://github.com/pionoor/Tone-Changer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tone Changer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE0491E81C24C450BFA5EBCCDF2E4E1A851F85D5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pionoor/Tone-Changer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE0491E81C24C450BFA5EBCCDF2E4E1A851F85D5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE0491E81C24C450BFA5EBCCDF2E4E1A851F85D5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tone%20Changer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

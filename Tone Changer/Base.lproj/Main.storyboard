@@ -9,7 +9,7 @@
         <!--Record-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController title="Record" id="vXZ-lx-hvc" customClass="RecordViewController" customModule="Voice_Changer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Record" id="vXZ-lx-hvc" customClass="RecordViewController" customModule="Tone_Changer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -25,6 +25,7 @@
                                     <constraint firstAttribute="height" constant="100" id="dMz-EJ-62Z"/>
                                     <constraint firstAttribute="width" constant="100" id="jfJ-Rq-s4X"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="record" image="Microphone">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -61,9 +62,9 @@
                                     <action selector="stop:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MTF-eX-9Li"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tone Changer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ew-BS-uFR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Your Voice!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ew-BS-uFR">
                                 <rect key="frame" x="239" y="74" width="122" height="23"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -95,7 +96,7 @@
         <!--Change Voice-->
         <scene sceneID="KfO-rN-wMC">
             <objects>
-                <viewController title="Change Voice" id="dqY-Me-ZaS" customClass="ChangeVoiceViewController" customModule="Voice_Changer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Change Voice" id="dqY-Me-ZaS" customClass="ChangeVoiceViewController" customModule="Tone_Changer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oOG-nv-hBJ"/>
                         <viewControllerLayoutGuide type="bottom" id="SQX-3f-rgJ"/>
