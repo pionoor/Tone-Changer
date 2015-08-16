@@ -39,7 +39,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzl-mH-uA4">
                                 <rect key="frame" x="247" y="305" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=compact-widthClass=compact" ambiguous="YES">
                                     <rect key="frame" x="147" y="281" width="106" height="0.0"/>
@@ -62,10 +62,10 @@
                                     <action selector="stop:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MTF-eX-9Li"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Your Voice!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ew-BS-uFR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Change Your Voice!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ew-BS-uFR">
                                 <rect key="frame" x="239" y="74" width="122" height="23"/>
                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -107,7 +107,7 @@
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" minimumValueImage="snail" maximumValueImage="rabbit" translatesAutoresizingMaskIntoConstraints="NO" id="PWu-yq-x0b">
                                 <rect key="frame" x="34" y="143" width="532" height="31"/>
-                                <color key="minimumTrackTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="speedAdjust:" destination="dqY-Me-ZaS" eventType="valueChanged" id="MJZ-rL-kpd"/>
                                 </connections>
@@ -115,13 +115,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3q6-UZ-bpN">
                                 <rect key="frame" x="275" y="114" width="51" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6W-WI-CrU">
-                                <rect key="frame" x="280" y="233" width="41" height="21"/>
+                                <rect key="frame" x="280" y="213" width="41" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpH-Fb-V2q">
@@ -139,9 +139,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4A-0x-9xo">
-                                <rect key="frame" x="257" y="352" width="87" height="40"/>
+                                <rect key="frame" x="257" y="302" width="87" height="40"/>
                                 <state key="normal" title="Reset" image="reset">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -149,8 +149,8 @@
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" minimumValueImage="darthVader" maximumValueImage="chimpmunk" translatesAutoresizingMaskIntoConstraints="NO" id="oyi-ET-Hbg">
-                                <rect key="frame" x="34" y="262" width="532" height="31"/>
-                                <color key="minimumTrackTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <rect key="frame" x="34" y="242" width="532" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="pitchAdjust:" destination="dqY-Me-ZaS" eventType="valueChanged" id="DuQ-pC-XgC"/>
                                 </connections>
@@ -169,11 +169,13 @@
                             <constraint firstAttribute="centerX" secondItem="p6W-WI-CrU" secondAttribute="centerX" constant="-0.5" id="ZAj-cM-Gvx"/>
                             <constraint firstItem="3q6-UZ-bpN" firstAttribute="top" secondItem="oOG-nv-hBJ" secondAttribute="bottom" constant="50" id="aX6-Yp-w7L"/>
                             <constraint firstItem="PWu-yq-x0b" firstAttribute="top" secondItem="3q6-UZ-bpN" secondAttribute="bottom" constant="8" id="fma-89-5gO"/>
-                            <constraint firstItem="T4A-0x-9xo" firstAttribute="top" secondItem="oyi-ET-Hbg" secondAttribute="bottom" constant="60" id="hVC-tY-M7J"/>
+                            <constraint firstItem="T4A-0x-9xo" firstAttribute="top" secondItem="oyi-ET-Hbg" secondAttribute="bottom" constant="30" id="hVC-tY-M7J">
+                                <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                            </constraint>
                             <constraint firstAttribute="centerX" secondItem="RpH-Fb-V2q" secondAttribute="centerX" id="k7L-Lv-9SP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="PWu-yq-x0b" secondAttribute="trailing" constant="20" id="pWZ-Ks-6nD"/>
                             <constraint firstAttribute="centerX" secondItem="3q6-UZ-bpN" secondAttribute="centerX" id="uFf-xn-pr4"/>
-                            <constraint firstItem="p6W-WI-CrU" firstAttribute="top" secondItem="PWu-yq-x0b" secondAttribute="bottom" constant="60" id="yVk-rO-S60"/>
+                            <constraint firstItem="p6W-WI-CrU" firstAttribute="top" secondItem="PWu-yq-x0b" secondAttribute="bottom" constant="40" id="yVk-rO-S60"/>
                         </constraints>
                     </view>
                     <connections>
