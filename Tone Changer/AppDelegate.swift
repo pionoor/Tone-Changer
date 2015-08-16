@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Tone Changer
+//  Voice Changer
 //
-//  Created by Noor Thabit on 8/15/15.
+//  Created by Noor Thabit on 7/15/15.
 //  Copyright (c) 2015 Noor Thabit. All rights reserved.
 //
 

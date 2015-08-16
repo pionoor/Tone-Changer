@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		213794C71B8049AC00E224AB /* ChangeVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213794C51B8049AC00E224AB /* ChangeVoiceViewController.swift */; };
+		213794C81B8049AC00E224AB /* ChangeVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213794C51B8049AC00E224AB /* ChangeVoiceViewController.swift */; };
+		213794C91B8049AC00E224AB /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213794C61B8049AC00E224AB /* RecordViewController.swift */; };
+		213794CA1B8049AC00E224AB /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213794C61B8049AC00E224AB /* RecordViewController.swift */; };
 		21AF47AD1B8048DE0015BB32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF47AC1B8048DE0015BB32 /* AppDelegate.swift */; };
-		21AF47AF1B8048DE0015BB32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF47AE1B8048DE0015BB32 /* ViewController.swift */; };
 		21AF47B21B8048DE0015BB32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AF47B01B8048DE0015BB32 /* Main.storyboard */; };
 		21AF47B41B8048DE0015BB32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AF47B31B8048DE0015BB32 /* Images.xcassets */; };
 		21AF47B71B8048DE0015BB32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AF47B51B8048DE0015BB32 /* LaunchScreen.xib */; };
@@ -26,10 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213794C51B8049AC00E224AB /* ChangeVoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeVoiceViewController.swift; sourceTree = "<group>"; };
+		213794C61B8049AC00E224AB /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		21AF47A71B8048DE0015BB32 /* Tone Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tone Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AF47AB1B8048DE0015BB32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AF47AC1B8048DE0015BB32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21AF47AE1B8048DE0015BB32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21AF47B11B8048DE0015BB32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21AF47B31B8048DE0015BB32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		21AF47B61B8048DE0015BB32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,8 +81,9 @@
 		21AF47A91B8048DE0015BB32 /* Tone Changer */ = {
 			isa = PBXGroup;
 			children = (
+				213794C51B8049AC00E224AB /* ChangeVoiceViewController.swift */,
+				213794C61B8049AC00E224AB /* RecordViewController.swift */,
 				21AF47AC1B8048DE0015BB32 /* AppDelegate.swift */,
-				21AF47AE1B8048DE0015BB32 /* ViewController.swift */,
 				21AF47B01B8048DE0015BB32 /* Main.storyboard */,
 				21AF47B31B8048DE0015BB32 /* Images.xcassets */,
 				21AF47B51B8048DE0015BB32 /* LaunchScreen.xib */,
@@ -212,8 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AF47AF1B8048DE0015BB32 /* ViewController.swift in Sources */,
+				213794C71B8049AC00E224AB /* ChangeVoiceViewController.swift in Sources */,
 				21AF47AD1B8048DE0015BB32 /* AppDelegate.swift in Sources */,
+				213794C91B8049AC00E224AB /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213794CA1B8049AC00E224AB /* RecordViewController.swift in Sources */,
 				21AF47C31B8048DF0015BB32 /* Tone_ChangerTests.swift in Sources */,
+				213794C81B8049AC00E224AB /* ChangeVoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				21AF47C81B8048DF0015BB32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21AF47C91B8048DF0015BB32 /* Build configuration list for PBXNativeTarget "Tone ChangerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				21AF47CB1B8048DF0015BB32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
