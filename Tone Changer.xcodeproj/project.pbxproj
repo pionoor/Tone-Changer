@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21AF47AD1B8048DE0015BB32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF47AC1B8048DE0015BB32 /* AppDelegate.swift */; };
+		21AF47AF1B8048DE0015BB32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF47AE1B8048DE0015BB32 /* ViewController.swift */; };
+		21AF47B21B8048DE0015BB32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AF47B01B8048DE0015BB32 /* Main.storyboard */; };
+		21AF47B41B8048DE0015BB32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AF47B31B8048DE0015BB32 /* Images.xcassets */; };
+		21AF47B71B8048DE0015BB32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AF47B51B8048DE0015BB32 /* LaunchScreen.xib */; };
+		21AF47C31B8048DF0015BB32 /* Tone_ChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF47C21B8048DF0015BB32 /* Tone_ChangerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21AF47BD1B8048DF0015BB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AF479F1B8048DE0015BB32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21AF47A61B8048DE0015BB32;
+			remoteInfo = "Tone Changer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21AF47A71B8048DE0015BB32 /* Tone Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tone Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AF47AB1B8048DE0015BB32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AF47AC1B8048DE0015BB32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21AF47AE1B8048DE0015BB32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21AF47B11B8048DE0015BB32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21AF47B31B8048DE0015BB32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21AF47B61B8048DE0015BB32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21AF47BC1B8048DF0015BB32 /* Tone ChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tone ChangerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AF47C11B8048DF0015BB32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AF47C21B8048DF0015BB32 /* Tone_ChangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tone_ChangerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21AF47A41B8048DE0015BB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AF47B91B8048DF0015BB32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21AF479E1B8048DE0015BB32 = {
+			isa = PBXGroup;
+			children = (
+				21AF47A91B8048DE0015BB32 /* Tone Changer */,
+				21AF47BF1B8048DF0015BB32 /* Tone ChangerTests */,
+				21AF47A81B8048DE0015BB32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21AF47A81B8048DE0015BB32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21AF47A71B8048DE0015BB32 /* Tone Changer.app */,
+				21AF47BC1B8048DF0015BB32 /* Tone ChangerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21AF47A91B8048DE0015BB32 /* Tone Changer */ = {
+			isa = PBXGroup;
+			children = (
+				21AF47AC1B8048DE0015BB32 /* AppDelegate.swift */,
+				21AF47AE1B8048DE0015BB32 /* ViewController.swift */,
+				21AF47B01B8048DE0015BB32 /* Main.storyboard */,
+				21AF47B31B8048DE0015BB32 /* Images.xcassets */,
+				21AF47B51B8048DE0015BB32 /* LaunchScreen.xib */,
+				21AF47AA1B8048DE0015BB32 /* Supporting Files */,
+			);
+			path = "Tone Changer";
+			sourceTree = "<group>";
+		};
+		21AF47AA1B8048DE0015BB32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21AF47AB1B8048DE0015BB32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21AF47BF1B8048DF0015BB32 /* Tone ChangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				21AF47C21B8048DF0015BB32 /* Tone_ChangerTests.swift */,
+				21AF47C01B8048DF0015BB32 /* Supporting Files */,
+			);
+			path = "Tone ChangerTests";
+			sourceTree = "<group>";
+		};
+		21AF47C01B8048DF0015BB32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21AF47C11B8048DF0015BB32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21AF47A61B8048DE0015BB32 /* Tone Changer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AF47C61B8048DF0015BB32 /* Build configuration list for PBXNativeTarget "Tone Changer" */;
+			buildPhases = (
+				21AF47A31B8048DE0015BB32 /* Sources */,
+				21AF47A41B8048DE0015BB32 /* Frameworks */,
+				21AF47A51B8048DE0015BB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tone Changer";
+			productName = "Tone Changer";
+			productReference = 21AF47A71B8048DE0015BB32 /* Tone Changer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21AF47BB1B8048DF0015BB32 /* Tone ChangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AF47C91B8048DF0015BB32 /* Build configuration list for PBXNativeTarget "Tone ChangerTests" */;
+			buildPhases = (
+				21AF47B81B8048DF0015BB32 /* Sources */,
+				21AF47B91B8048DF0015BB32 /* Frameworks */,
+				21AF47BA1B8048DF0015BB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AF47BE1B8048DF0015BB32 /* PBXTargetDependency */,
+			);
+			name = "Tone ChangerTests";
+			productName = "Tone ChangerTests";
+			productReference = 21AF47BC1B8048DF0015BB32 /* Tone ChangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21AF479F1B8048DE0015BB32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Noor Thabit";
+				TargetAttributes = {
+					21AF47A61B8048DE0015BB32 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					21AF47BB1B8048DF0015BB32 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 21AF47A61B8048DE0015BB32;
+					};
+				};
+			};
+			buildConfigurationList = 21AF47A21B8048DE0015BB32 /* Build configuration list for PBXProject "Tone Changer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21AF479E1B8048DE0015BB32;
+			productRefGroup = 21AF47A81B8048DE0015BB32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21AF47A61B8048DE0015BB32 /* Tone Changer */,
+				21AF47BB1B8048DF0015BB32 /* Tone ChangerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21AF47A51B8048DE0015BB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF47B21B8048DE0015BB32 /* Main.storyboard in Resources */,
+				21AF47B71B8048DE0015BB32 /* LaunchScreen.xib in Resources */,
+				21AF47B41B8048DE0015BB32 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AF47BA1B8048DF0015BB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21AF47A31B8048DE0015BB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF47AF1B8048DE0015BB32 /* ViewController.swift in Sources */,
+				21AF47AD1B8048DE0015BB32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AF47B81B8048DF0015BB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AF47C31B8048DF0015BB32 /* Tone_ChangerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21AF47BE1B8048DF0015BB32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21AF47A61B8048DE0015BB32 /* Tone Changer */;
+			targetProxy = 21AF47BD1B8048DF0015BB32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21AF47B01B8048DE0015BB32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AF47B11B8048DE0015BB32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21AF47B51B8048DE0015BB32 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AF47B61B8048DE0015BB32 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21AF47C41B8048DF0015BB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21AF47C51B8048DF0015BB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21AF47C71B8048DF0015BB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tone Changer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21AF47C81B8048DF0015BB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tone Changer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21AF47CA1B8048DF0015BB32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tone ChangerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tone Changer.app/Tone Changer";
+			};
+			name = Debug;
+		};
+		21AF47CB1B8048DF0015BB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tone ChangerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tone Changer.app/Tone Changer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21AF47A21B8048DE0015BB32 /* Build configuration list for PBXProject "Tone Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AF47C41B8048DF0015BB32 /* Debug */,
+				21AF47C51B8048DF0015BB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AF47C61B8048DF0015BB32 /* Build configuration list for PBXNativeTarget "Tone Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AF47C71B8048DF0015BB32 /* Debug */,
+				21AF47C81B8048DF0015BB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21AF47C91B8048DF0015BB32 /* Build configuration list for PBXNativeTarget "Tone ChangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AF47CA1B8048DF0015BB32 /* Debug */,
+				21AF47CB1B8048DF0015BB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21AF479F1B8048DE0015BB32 /* Project object */;
+}
